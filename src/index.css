@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: "Aesthetic Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+  src: local("Aesthetic Regular"),
+    url("./assets/fonts/Aesthetic-Font/misc/Aesthetic-Regular-ed9f.woff") format("woff");
   font-display: swap;
 }
 @font-face {

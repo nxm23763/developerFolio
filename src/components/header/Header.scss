@@ -10,6 +10,10 @@
 .dark-menu {
   background-color: $darkBackground !important;
   color: $textColorDark;
+
+  .logo-name {
+    color: #ffffff;
+  }
 }
 
 .dark-menu li a {
@@ -61,10 +65,11 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Aesthetic Regular";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
+  color: #223030;
   padding: 0 10px;
 }
 

@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import ToggleLanguage from "../ToggleLanguage/ToggleLanguage";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
@@ -74,8 +75,9 @@ function Header() {
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            <a style={{display: 'flex', gap: '20px' }}>
               <ToggleSwitch />
+              <ToggleLanguage />
             </a>
           </li>
         </ul>

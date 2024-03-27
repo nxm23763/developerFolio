@@ -60,6 +60,7 @@
   left: 0;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -74,7 +75,6 @@
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
 }
 
 .experience-roundedimg {
@@ -107,6 +107,14 @@
   text-align: center;
   color: $textColor;
   font-size: 20px;
+  margin: 0px;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+.experience-text-location {
+  text-align: center;
+  color: $textColor;
+  font-size: 18px;
   margin: 0px;
   padding-top: 1rem;
   font-weight: 600;
