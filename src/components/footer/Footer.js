@@ -17,6 +17,7 @@ export default function Footer() {
           <a href="https://github.com/saadpasta/developerFolio">
             developerFolio
           </a>
+          . Original Animations by RBR Digital @ LottieFiles, recolored and modified by Natalia Mora.
         </p>
       </div>
     </Fade>
