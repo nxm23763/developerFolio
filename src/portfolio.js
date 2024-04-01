@@ -38,9 +38,9 @@ const socialMediaLinks = {
   researchgate: "https://www.researchgate.net/profile/Natalia-Mora-3",
   orcid: "https://orcid.org/my-orcid?orcid=0000-0001-8748-122X",
   gmail: "nxm23763@gmail.com",
-  kaggle: "https://www.kaggle.com/nataliamora23763",
-  medium: "https://medium.com/@nxm23763",
-  stackoverflow: "https://stackoverflow.com/users/23629121/natalia-mora",
+  //aggle: "https://www.kaggle.com/nataliamora23763",
+  //medium: "https://medium.com/@nxm23763",
+  //stackoverflow: "https://stackoverflow.com/users/23629121/natalia-mora",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -157,18 +157,19 @@ const educationInfo = {
       duration: "August 2020 - May 2024",
       desc: "As a passionate computer science student, AI/ML researcher, and student leader, I've made it my lifelong mission to democratize AI education for all. My journey at the University of Oklahoma Gallogly College of Engineering has laid the groundwork for this mission.",
       descBullets: [
-        emoji("🧠 Co-Founder, Former President, and Current VPX of OU AI/ML Club, est. Dec 2020"),
-        emoji("👩🏻‍💻 Co-Founder and Co-President of OU Girls Who Code College Loop, est. Aug 2023"),
-        emoji("🍀 Loyal Knights of Old Trusty, LKOT 798/"),
-        emoji("🌐 Co-Founder of OU AI/ML Symposium, a one-of-a-kind student-led conference showcasing diverse AI/ML projects from the OU student body with historical support from industry leaders such as IBM, Walmart Global Tech, Morgan Stanley, Boeing, DISC, REAL Lab, and ConocoPhillips"),
-        emoji("🤖 4x ML Researcher, specializing in deep reinforcement learning (RL), recurrent vector functional link (RVFL) networks, and deep Q-Learning (DQN), applied in real-world tasks such as image compression, compiler transformations, the Graph Coloring Problem, and even mastering matrix logic puzzles with linear algebra"),
-        emoji("📔 Published author of independent preprint paper \"The Mind Behind The Robot\", an interdisciplinary study exploring the role of anthropomorphism, user perceptions, and robot design in facilitating effective joint-task interactions, particularly in the context of artificial moral agent (AMA)-powered social robots"),
-        emoji("🗣️ Public speaker on AI/ML-related topics at Teach OUt on Race Conference, SASE, GLAMS, ENGR 1411, and other seminars, workshops, and forums"),
-        emoji("🔬 Alum of OU First-Year Research Experience (FYRE) and Honors Engineering Research Experience (HERE)"),        emoji("🎯 Member of Data Science and Analytics (DSA) Club, Hacklahoma, ACM, UI/UX Club, Engineers' Club, and Computer Science Student Board"),
-        emoji("🙌🏻 Involved in on-campus professional societies, the Society of Hispanic Professional Engineers (SHPE) and the Society of Women Engineers (SWE)"),
-        emoji("🌱 Volunteer at The Big Event, OU Engineering Open House, Tomás Rivera Educational Empowerment (TREE) Conference, and OU Girls Learning and Applying Math and Science (GLAMS)"),
-        emoji("✈️ Full-Ride Scholarships to WE23 Conference (Los Angeles, CA), 2022 Salesforce B.A.S.E. Camp (Scotts Valley, CA), 2022 Dow Diamond Symposium (Midland, MI) and the 2022 TIAA Bank Early Immersion Program for Hispanics and Latinos (Charlotte, NC)"),
-        emoji("🎓 Relevant Coursework: Artificial Neural Networks & Evolution, Computational Methods of Discrete Optimization, Intro to Intelligent Robotics, Parallel, Distributed, and Network Programming, Software Engineering, Database Management Systems, Capstone Design Project, Intro to Operating Systems, Computer Security, Principles of Programming Languages, Data Structures, Discrete Structures, Linear Algebra, Differential Equations, Calculus I-III")
+        emoji("🧠 Co-Founder, Former President, and Current VPX of OU AI/ML Club, est. Dec 2020."),
+        emoji("👩🏻‍💻 Co-Founder and Co-President of OU Girls Who Code College Loop, est. Aug 2023."),
+        emoji("🍀 Loyal Knights of Old Trusty, LKOT 798/."),
+        emoji("📔 Published author of independent preprint paper \"The Mind Behind The Robot\", exploring how anthropomorphism, user perceptions, and social robot design enhance joint-task interactions."),
+        emoji("🤖 4x ML Researcher, specializing in deep reinforcement learning, artificial neural networks, and large language models (LLMs)."),
+        emoji("🌐 Co-Creator of award-winning annual OU AI/ML Symposium, showcasing original AI/ML research projects by OU students. Supported by industry leaders like IBM, Walmart Global Tech, Morgan Stanley, Boeing, and ConocoPhillips. 2x Recipient of the Donna Shirley Engineering Award."),
+        emoji("🗣️ Public speaker on AI/ML ethics, with a proven track record of delivering engaging presentations at seminars and conferences. Dedicated to fostering dialogue, raising awareness of societal concerns, and guiding audiences through the ethical implications shaping the future of AI/ML."),
+        emoji("🔬 Alum of OU First-Year Research Experience (FYRE) and Honors Engineering Research Experience (HERE). Affiliate member of Data Institute for Societal Challenges (DISC) and Robotics, Evolution, Adaptation and Learning Laboratory (REAL Lab)."),
+        emoji("🎯 Member of Society of Hispanic Professional Engineers (SHPE), Society of Women Engineers (SWE), Data Science and Analytics (DSA) Club, Hacklahoma, SACM, UI/UX Club, Engineers' Club, and Computer Science Student Board."),
+        //emoji("🙌🏻 Involved in on-campus professional societies, the Society of Hispanic Professional Engineers (SHPE) and the Society of Women Engineers (SWE)"),
+        //emoji("🌱 Volunteer at The Big Event, OU Engineering Open House, Tomás Rivera Educational Empowerment (TREE) Conference, and OU Girls Learning and Applying Math and Science (GLAMS)"),
+        //emoji("✈️ Full-Ride Scholarships to WE23 Conference (Los Angeles, CA), 2022 Salesforce B.A.S.E. Camp (Scotts Valley, CA), 2022 Dow Diamond Symposium (Midland, MI) and the 2022 TIAA Bank Early Immersion Program for Hispanics and Latinos (Charlotte, NC)"),
+        emoji("🎓 Relevant Coursework: Artificial Neural Networks & Evolution, Computational Methods of Discrete Optimization, Intro to Intelligent Robotics, Parallel, Distributed, and Network Programming, Software Engineering, Database Management Systems, Capstone Design Project, Intro to Operating Systems, Computer Security, Theory of Computation, Principles of Programming Languages, Data Structures, Discrete Structures, Linear Algebra, Differential Equations, Calculus I-III.")
       ]
     }
   ]
@@ -331,11 +332,11 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/AgriAIpicture.jpg"),
-      projectName: "DISC Agri:AI Coding Challenge",
+      projectName: "DISC Agri: AI Coding Challenge",
       projectDesc: "[COMING SOON]",
       footerLink: [
         {
-          name: "DISC Agri:AI Website",
+          name: "DISC Agri: AI Website",
           url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
         }
       ]
@@ -363,57 +364,65 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ouLogo.png"),
-      projectName: "Hacklahoma 2023 Best Theme Winner: YesterYak",
-      projectDesc: "[COMING SOON] (OU LOGO IS PLACEHOLDER)",
+      image: require("./assets/images/yesteryak.png"),
+      projectName: "YesterYak",
+      projectDesc: "Hacklahoma 2024 Best Theme Winner! Imagine stepping into a digital time machine, not to change history, but to listen in on the whispers and roars of the past. Welcome to YesterYak, a social media from the past, now!",
       footerLink: [
         {
-          name: "A button goes here",
-          url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
+          name: "Devpost",
+          url: "https://devpost.com/software/yesteryak"
         }
       ]
     },
     {
-      image: require("./assets/images/ouLogo.png"),
+      image: require("./assets/images/classesPage.png"),
       projectName: "BrewMaster's Cauldron",
-      projectDesc: "[COMING SOON] (OU LOGO IS PLACEHOLDER)",
+      projectDesc: "Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN web app, tailored for adventurers by adventurers.",
       footerLink: [
         {
-          name: "A button goes here",
-          url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
+          name: "GitHub Repo",
+          url: "https://github.com/mariadoan247/brew-masters-cauldron"
         }
       ]
     },
     {
-      image: require("./assets/images/ouLogo.png"),
+      image: require("./assets/images/kobukiTurtlebot.JPG"),
       projectName: "Oliver: A Speech-Oriented Tour Guide Robot",
-      projectDesc: "[COMING SOON] (OU LOGO IS PLACEHOLDER)",
+      projectDesc: "Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
       footerLink: [
         {
-          name: "A button goes here",
-          url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
+          name: "GitHub Repo",
+          url: "https://github.com/nxm23763/cs4013_oliver"
+        },
+        {
+          name: "Final Poster",
+          url: "https://drive.google.com/file/d/1I2MCpXeLwd8m_yWqix61ePRluAU_5FKe/view?usp=sharing"
         }
       ]
     },
     {
-      image: require("./assets/images/ouLogo.png"),
+      image: require("./assets/images/finalfaHome.png"),
       projectName: "JPMC AHL Fellowship: Finalfa",
-      projectDesc: "[COMING SOON] (OU LOGO IS PLACEHOLDER)",
+      projectDesc: "Finalfa helps Hispanic and Latino immigrants bolster their financial literacy and secure their futures! This jeopardy-style game provides a fun, easy, and accessible curriculum for all!",
       footerLink: [
         {
-          name: "A button goes here",
-          url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
+          name: "Glitch Code",
+          url: "https://glitch.com/edit/#!/finalfaprototypehackathon"
+        },
+        {
+          name: "Live Site",
+          url: "https://finalfaprototypehackathon.glitch.me"
         }
       ]
     },
     {
-      image: require("./assets/images/ouLogo.png"),
-      projectName: "HERE Research: Gamifying Compiler and Code Generator Transformations",
+      image: require("./assets/images/tictactoe.png"),
+      projectName: "Tic Tac Alone: A RL-based Proof of Concept for Gamifying Compiler and Code Generator Transformations",
       projectDesc: "[COMING SOON] (OU LOGO IS PLACEHOLDER)",
       footerLink: [
         {
-          name: "A button goes here",
-          url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
+          name: "Photo credit",
+          url: "https://www.zabkat.com/blog/tic-tac-toe-learning.htm"
         }
       ]
     },
@@ -438,57 +447,162 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Chronological order",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "🏆 Selected Panelist at OU WGS Center for Social Justice's Teach OUt on Race Conference",
+      subtitle: "March 2024",
+      image: require("./assets/images/csjLogo.jpg"),
+      imageAlt: "SJC Logo",
+      footerLink: [
+        {name: "Teach OUt on Race", url: "https://www.ou.edu/cas/csj/programs/teachout"}
+      ]
+    },
+    {
+      title: "🏆 Hacklahoma 2024 Winner for Best Theme",
+      subtitle: "February 2024",
+      image: require("./assets/images/hacklahoma24.png"),
+      imageAlt: "TIAA Logo",
+      footerLink: [
+        {name: "Hacklahoma Website", url: "https://2024.hacklahoma.org/"},
+        {name: "Project Gallery", url: "https://hacklahoma-2024.devpost.com/project-gallery"},
+        {name: "Yesteryak Devpost", url: "https://devpost.com/software/yesteryak"}
+      ]
+    },
+    {
+      title: emoji("⚙️ AWS Certified Cloud Practitioner"),
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Certified August 16, 2023. Validation Number: VQLGN48K7EVQQESR",
+      image: require("./assets/images/awsccpLogo.png"),
+      imageAlt: "AWS CCP Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.credly.com/badges/eb416594-8ff0-4aa5-b0bd-d40f79a8ddcf/public_url"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Verify here",
+          url: "https://aws.amazon.com/verification"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: emoji("⚙️ Girls Who Code x Deloitte Technical Interview Prep Bootcamp"),
+      subtitle: "November 2023",
+      image: require("./assets/images/gwcdeloitte.JPG"),
+      imageAlt: "TIAA Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
+        {name: "TIP Bootcamp Program", url: "https://girlswhocode.zendesk.com/hc/en-us/articles/8463807424667-What-is-the-Girls-Who-Code-Technical-Interview-Prep-program"},
+        {name: "Deliverable: Daily Mood Logging Roadmap", url: "https://trello.com/b/v91lN99j/%F0%9F%98%84%F0%9F%98%8A%F0%9F%98%90%F0%9F%98%94%F0%9F%98%96-daily-mood-logging-roadmap"}
 
+      ]
+    },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: emoji("✈️ WE23 Conference Attendee"),
+      subtitle: "October 2023, Los Angeles, CA",
+      image: require("./assets/images/we23.jpg"),
+      imageAlt: "WE23 Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "WE23", url: "https://swe.org/calendar/we23-the-worlds-largest-conference-for-women-in-engineering-and-technology/"}
+      ]
+    },
+    {
+      title: emoji("✈️ TIAA Early Immersion Program for Hispanic Students"),
+      subtitle: "September 2022, Charlotte, NC",
+      image: require("./assets/images/tiaa.png"),
+      imageAlt: "TIAA Logo",
+      footerLink: [
+        {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
+      ]
+    },
+    {
+      title: emoji("✈️ Dow Diamond Symposium Attendee, Information Systems Cohort"),
+      subtitle: "August 2022, Midland, MI",
+      image: require("./assets/images/dowDiamondSymposium2022.jpg"),
+      imageAlt: "2022 Dow Diamond Symposium Logo",
+      footerLink: [
+        {name: "Dow Diamond Symposium", url: "https://corporate.dow.com/en-us/careers/work-at-dow/diamond-symposium.html"},
+        {name: "Dow Diversity Initiatives", url: "https://corporate.dow.com/en-us/about/inclusion-and-diversity/encouraging-advocacy-community-and-talent.html"}
+      ]
+    },
+    {
+      title: emoji("🏆 Hispanic Scholarship Fund Scholar"),
+      subtitle: "Recognized as a 2022 Hispanic Scholarship Fund (HSF) scholar, commended for exceptional achievements, academic excellence, and commitment to fostering diversity and inclusivity within the Hispanic and Latino community.",
+      image: require("./assets/images/hsfLogo.png"),
+      imageAlt: "HSF Logo",
+      footerLink: [
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "HSF Scholar Program", url: "https://www.hsf.net/scholarship"
         }
       ]
-    }
+    },
+    {
+      title: emoji("✈️ Salesforce B.A.S.E. Camp Fellow"),
+      subtitle: "March 2022, Scotts Valley, CA",
+      image: require("./assets/images/basecamp.png"),
+      imageAlt: "Salesforce BASE Camp Logo",
+      footerLink: [
+        {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
+      ]
+    },
+    {
+      title: emoji("⚙️ AT&T Summer Learning Academy Extern"),
+      subtitle: "August 2021",
+      image: require("./assets/images/attExtern.png"),
+      imageAlt: "AT&T Logo",
+      footerLink: [
+        {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
+      ]
+    },
+    {
+      title: "Volunteer Academic Writing Tutor",
+      subtitle: "February 2021",
+      image: require("./assets/images/iasaEnglishClusters.png"),
+      imageAlt: "IASA Logo",
+      footerLink: [
+        {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
+      ]
+    },
+    {
+      title: emoji("🏆 OU Scholarships"),
+      subtitle:
+        "Various",
+      image: require("./assets/images/gcoeFlag.jpg"),
+      imageAlt: "GCoE Flag Logo",
+      footerLink: [
+        {
+          name: "Diploma",
+          url: "https://drive.google.com/file/d/17KaBHEdDhKY2FTS27dwvCq-ybJpv9ocr/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: emoji("🏆 AP Capstone Diploma"),
+      subtitle:
+        "July 2019",
+      image: require("./assets/images/apCapstoneLogo.webp"),
+      imageAlt: "AP Capstone Logo",
+      footerLink: [
+        {
+          name: "Diploma",
+          url: "https://drive.google.com/file/d/17KaBHEdDhKY2FTS27dwvCq-ybJpv9ocr/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: emoji("✈️ Washington Journalism and Media Conference Attendee National Youth Correspondent"),
+      subtitle:
+        "July 2019, Fairfax, VA",
+      image: require("./assets/images/wjmcLogo.jpg"),
+      imageAlt: "WJMC Logo",
+      footerLink: [
+        {
+          name: "Diploma",
+          url: "https://drive.google.com/file/d/17KaBHEdDhKY2FTS27dwvCq-ybJpv9ocr/view?usp=sharing"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -496,10 +610,10 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Talks",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "This section will contain the tech talks I have given.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
