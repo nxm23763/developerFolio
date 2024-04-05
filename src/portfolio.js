@@ -171,7 +171,7 @@ const educationInfo = {
           '📔 Published author of independent preprint paper "The Mind Behind The Robot", exploring how anthropomorphism, user perceptions, and social robot design enhance joint-task interactions.'
         ),
         emoji(
-          "🤖 4x ML Researcher, specializing in deep reinforcement learning, artificial neural networks, and large language models (LLMs)."
+          "🤖 4x ML Researcher, specializing in deep reinforcement learning, artificial neural networks, and large language models."
         ),
         emoji(
           "🌐 Co-Creator of award-winning annual OU AI/ML Symposium, showcasing original AI/ML research projects by OU students. Supported by industry leaders like IBM, Walmart Global Tech, Morgan Stanley, Boeing, and ConocoPhillips. 2x Recipient of the Donna Shirley Engineering Award."
@@ -180,7 +180,7 @@ const educationInfo = {
           "🗣️ Public speaker on AI/ML ethics, with a proven track record of delivering engaging presentations at seminars and conferences. Dedicated to fostering dialogue, raising awareness of societal concerns, and guiding audiences through the ethical implications shaping the future of AI/ML."
         ),
         emoji(
-          "🔬 Alum of OU First-Year Research Experience (FYRE) and Honors Engineering Research Experience (HERE). Affiliate member of Data Institute for Societal Challenges (DISC) and Robotics, Evolution, Adaptation and Learning Laboratory (REAL Lab)."
+          "🔬 Alum of OU First-Year Research Experience (FYRE) and Honors Engineering Research Experience (HERE). Member of Data Institute for Societal Challenges (DISC) and Robotics, Evolution, Adaptation and Learning Laboratory (REAL Lab)."
         ),
         emoji(
           "🎯 Member of Society of Hispanic Professional Engineers (SHPE), Society of Women Engineers (SWE), Data Science and Analytics (DSA) Club, Hacklahoma, SACM, UI/UX Club, Engineers' Club, and Computer Science Student Board."
@@ -228,10 +228,11 @@ const workExperiences = {
       companylogo: require("./assets/images/disc2Logo.jpg"),
       date: "April 2024 – Present",
       location: "Norman, OK, US",
-      desc: "This April, I will join the Supply Chain Risk Management (SCRM) team at DISC as a data science research assistant.",
+      desc: "Joining in April. Data science research assistant on the Supply Chain Risk Management (SCRM) team.",
       descBullets: [
-        "Contribute to an industry project with the Air Force and SOSSEC Inc., developing a risk assessment system for the DoD supply chain",
-        "Conduct data analysis with Python, extracting insights from news articles and financial documents to assess financial, legal, cybersecurity, and foreign influence risks"
+        "Contribute to an Air Force and SOSSEC Inc. industry project, developing a DoD supply chain risk assessment system",
+        "Conduct data analysis using Python to extract insights from news articles and financial documents",
+        "Assess financial, legal, cybersecurity, and foreign influence risks"
       ]
     },
     {
@@ -240,11 +241,11 @@ const workExperiences = {
       companylogo: require("./assets/images/outlierAILogo.jpg"),
       date: "February 2024 – Present",
       location: "Remote",
-      desc: "As a freelance AI Data Science Training Expert at Outlier AI, I'll refine generative AI model responses and maintain coding standards, tackling various data science challenges and collaborating on dynamic projects.",
+      desc: "Freelance AI Data Science Training Expert at Outlier AI.",
       descBullets: [
-        "Refined generative AI model responses and maintained coding standards",
-        "Tackled coding challenges in data generation, cleaning, visualization, and machine learning modeling",
-        "Collaborated on dynamic projects aimed at training large language models (LLMs) and improving code generation"
+        "Refine generative AI model responses and maintain coding standards",
+        "Tackle coding challenges in data generation, cleaning, visualization, and machine learning modeling using Python",
+        "Collaborate on projects aimed at training large language models (LLMs) and improving code generation"
       ]
     },
     {
@@ -253,12 +254,11 @@ const workExperiences = {
       companylogo: require("./assets/images/jpmcLogo.png"),
       date: "June 2023 – August 2023",
       location: "Palo Alto, CA, US",
-      desc: "As a back-end engineer intern on the Site Reliability Engineering team, I focused on enhancing operational efficiency in the company's cloud infrastructure.",
+      desc: "Back-end software engineer intern on Site Reliability Engineering Team within the Chief Technology Office (CTO).",
       descBullets: [
-        "Mastered foundational AWS with CCP certification, showcasing expertise in S3, EC2, RDC and Lambda",
-        "Engineered data-driven Snowflake resource monitoring dashboard using Prometheus metrics",
-        "Designed a tailored Grafana dashboard, enabling comprehensive data visualization across all LOBs",
-        "Implemented an efficient end-to-end pipeline, enhancing data transfer from AWS S3 to Grafana"
+        "Mastered foundational AWS (S3, EC2, RDC, Lambda) and earned AWS CCP certification",
+        "Engineered a Snowflake resource monitoring dashboard in Grafana using Prometheus metrics",
+        "Implemented end-to-end time-stamp pipeline, enhancing data transfer from AWS S3 to Grafana"
       ]
     },
     {
@@ -267,12 +267,11 @@ const workExperiences = {
       companylogo: require("./assets/images/ouitLogo.png"),
       date: "March 2023 – August 2023",
       location: "Norman, OK, US",
-      desc: "As an OU Library Technology Platforms (LTP) support specialist, I enhanced the library user experience for staff and patrons by streamlining computer integration and providing efficient technical assistance across all OU branch libraries.",
+      desc: "IT support specialist at OU Library IT Team (Library Technology Platforms).",
       descBullets: [
         "Onboarded enterprise computers using KACE and JAMF scripting for seamless integration",
-        "Led to the resolution of over 50 Jira IT support tickets, effectively managing IT tasks and improving system efficiency",
-        "Managed and troubleshooted hardware issues to optimize system function",
-        "Provided remote assistance using Bomgar remote agent for efficient software issue resolution"
+        "Resolved over 50 Jira support tickets, troubleshooting hardware issues and improving system efficiency",
+        "Provided remote assistance using Bomgar for efficient software issue resolution"
       ]
     },
     {
@@ -281,9 +280,9 @@ const workExperiences = {
       companylogo: require("./assets/images/okDeptEducationLogo.png"),
       date: "September 2022 – April 2023",
       location: "Remote",
-      desc: "As an OMTC algebra tutor, I mentored special education students in grades 7-9 through high-dosage algebra tutoring post-COVID disruptions.",
+      desc: "Math tutor in the Oklahoma Math Tutoring Corps, an initiative funded by the Oklahoma State Department of Education.",
       descBullets: [
-        "Conducted triweekly virtual sessions emphasizing small group hands-on activities and practice problems",
+        "Conducted triweekly virtual sessions for special education students in grades 7-9",
         "Focused on real-world problem-solving techniques sensitive to individual learning styles",
         "Reinforced key concepts of the Oklahoma algebra curriculum"
       ]
@@ -294,11 +293,11 @@ const workExperiences = {
       companylogo: require("./assets/images/ouLogo.png"),
       date: "October 2021 – March 2023",
       location: "Norman, OK, US",
-      desc: "As a library assistant at the Bizzell Memorial Library's History of Science Special Collections, I aided researchers in accessing sensitive historical materials.",
+      desc: "Library assistant at the University of Oklahoma Bizzell Memorial Library's History of Science Special Collections.",
       descBullets: [
-        "Guided researchers in accessing pre-1800s historical materials on-site",
+        "Guided researchers in accessing pre-1800s historical materials at the History of Science Special Collections",
         "Processed Interlibrary Loan (ILL) Requests and digitally delivered photo-scanned sensitive materials",
-        "Assisted in the preservation efforts and general upkeep of the special collections"
+        "Assisted in preservation efforts and general upkeep of the special collections"
       ]
     },
     {
@@ -307,10 +306,10 @@ const workExperiences = {
       companylogo: require("./assets/images/jpmcLogo.png"),
       date: "June 2022 – July 2022",
       location: "Plano, TX, US",
-      desc: "As a SWE fellow in the inaugural class of the Advancing Hispanics & Latinos (AHL) Fellowship Program, I made an impact by implementing ML on a credit risk assessment model, and developed my front-end skills to create a financial literacy game, aligning with AHL's diversity and economic equity goals.",
+      desc: "SWE Fellow in the inaugural class of the Advancing Hispanics & Latinos (AHL) Fellowship Program.",
       descBullets: [
-        "Implemented artificial neural network (ANN)-powered risk assessment model for partner bank Southern Bancorp, leveraging consumer behavior data to support low-income clients in accessing credit-building programs",
-        'Engineered "Finalfa", an online financial literacy game designed for first-gen immigrants to achieve economic equity in the US, as a front-end developer using the HTML/CSS/JS framework, React, Figma, and Node.js',
+        "Implemented an ANN-powered risk assessment model using consumer behavior data for Southern Bancorp",
+        'Engineered "Finalfa", an online financial literacy game using HTML/CSS/JS, React, Figma, and Node.js',
         "Contributed to innovative business solutions and swift product development within a multidisciplinary cohort"
       ]
     }
@@ -330,13 +329,14 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   subtitle: emoji(
-    "My role: 🔧 = Back-End | 🎨 = Front-End | 🧠 = AI/ML & Data Engineering"
+    "Emoji key: 🔧 = Back-End | 🎨 = Front-End | 🧠 = AI/ML & Data Engineering | 🚧 Currently in development"
   ),
   projects: [
     {
       image: require("./assets/images/GCPpic.png"),
-      projectName: emoji("🧠 RL Graph Coloring Problem Solver"),
-      projectDesc: "Jan-May 2024. Coming soon: ",
+      projectName: emoji("🧠🚧 RL Graph Coloring Problem Solver"),
+      projectDesc:
+        "Jan-May 2024, Artificial Neural Networks & Evolution Course. ",
       footerLink: [
         {
           name: "ANNE Course",
@@ -346,9 +346,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/AgriAIpicture.jpg"),
-      projectName: emoji("🧠 DISC Agri:AI Coding Challenge"),
+      projectName: emoji("🧠🚧 DISC Agri:AI Coding Challenge"),
       projectDesc:
-        "Mar-Apr 2024. AI Institute Planning: A Gap-Based Approach to Frame and Develop Robust AI for Sustainable Agriculture. Currently building a predictive regression model for charting CO2 fluxes and evapotranspiration in grain-only and graze-out wheat using weather and satellite remote sensing data.",
+        "Mar-Apr 2024, DISC. Currently building a predictive regression model for charting CO2 fluxes and evapotranspiration in grain-only and graze-out wheat using weather and satellite remote sensing data.",
       footerLink: [
         {
           name: "DISC Agri: AI Website",
@@ -357,22 +357,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/yesteryak.png"),
-      projectName: emoji("🎨 YesterYak"),
-      projectDesc:
-        "Feb 2024. Hacklahoma 2024 Best Theme Winner! Imagine stepping into a digital time machine, not to change history, but to listen in on the whispers and roars of the past. Welcome to YesterYak, a social media from the past, now!",
-      footerLink: [
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/yesteryak"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/logicPuzzlePic.jpg"),
-      projectName: emoji("🧠 RL Matrix Logic Puzzle Solver"),
+      projectName: emoji("🧠🚧 RL Matrix Logic Puzzle Solver"),
       projectDesc:
-        "Dec 2023-Present. Personal passion project, exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open-source Github repo to be published soon.",
+        "Dec 2023-Present, personal passion project. Exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open-source Github repo to be published soon.",
       footerLink: [
         {
           name: "Puzzle Baron Logic Puzzles",
@@ -381,10 +369,22 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/classesPage.png"),
-      projectName: emoji("🔧 BrewMaster's Cauldron"),
+      image: require("./assets/images/yesteryak.png"),
+      projectName: emoji("🎨 YesterYak: Yik Yak but for Time Travellers!"),
       projectDesc:
-        "Aug-Dec 2023. Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN (MongoDB, Express, React, Node.js) web app, tailored for adventurers by adventurers. Live demo to be published soon.",
+        "Feb 2024, Hacklahoma 2024 (Best Theme Winner). Imagine stepping into a digital time machine, not to change history, but to listen in on the whispers and roars of the past. Welcome to YesterYak, a social media from the past, now!",
+      footerLink: [
+        {
+          name: "Devpost",
+          url: "https://devpost.com/software/yesteryak"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/classesPage.png"),
+      projectName: emoji("🔧 BrewMaster's Cauldron: D&D Character Forge"),
+      projectDesc:
+        "Aug-Dec 2023, Capstone Design Course. Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN (MongoDB, Express, React, Node.js) web app, tailored for adventurers by adventurers. Live demo to be published soon.",
       footerLink: [
         {
           name: "GitHub Repo",
@@ -396,7 +396,7 @@ const bigProjects = {
       image: require("./assets/images/kobukiTurtlebot.JPG"),
       projectName: emoji("🔧 Oliver: A Speech-Oriented Tour Guide Robot"),
       projectDesc:
-        "Aug-Dec 2023. Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
+        "Aug-Dec 2023, Intro to Intelligent Robotics Course. Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
       footerLink: [
         {
           name: "GitHub Repo",
@@ -413,7 +413,7 @@ const bigProjects = {
       projectName: emoji(
         "🧠 Tic Tac Alone: A RL-based Proof of Concept for Gamifying Compiler and Code Generator Transformations"
       ),
-      projectDesc: "Jan-May 2023.",
+      projectDesc: "Jan-May 2023, HERE Program.",
       footerLink: [
         {
           name: "Photo credit",
@@ -423,9 +423,11 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/finalfaHome.png"),
-      projectName: emoji("🎨 JPMC AHL Fellowship: Finalfa"),
+      projectName: emoji(
+        "🎨 Finalfa: A Jeopardy-style Game to Financially Empower Latino Communities"
+      ),
       projectDesc:
-        "Jul 2022. Finalfa helps Hispanic and Latino immigrants bolster their financial literacy and secure their futures! This jeopardy-style game provides a fun, easy, and accessible curriculum for all!",
+        "Jul 2022, JPMC AHL SWE Fellowship. Finalfa helps Hispanic and Latino immigrants bolster their financial literacy and secure their futures! This jeopardy-style game provides a fun, easy, and accessible curriculum for all!",
       footerLink: [
         {
           name: "Glitch Code",
@@ -443,7 +445,7 @@ const bigProjects = {
         "🧠 Modeling Socio-Cognitive Decision Making: An Evolutionary Approach to the Deep RL Agent-Based Neural Network"
       ),
       projectDesc:
-        "Jan-May 2021. Robotics, Evolution, Adaptation and Learning (REAL) Lab Research. Proposal to optimize deep RL in socio-cognitive sensorimotor responses with partially supervised RL networks, which demonstrate superior efficiency, requiring less training data and fewer iterations for convergence. This research advocates for a unique hybrid approach to create socially cognizant robots for therapeutic applications.",
+        "Jan-May 2021, REAL Lab & FYRE Program. Proposal to optimize deep RL in socio-cognitive sensorimotor responses with partially supervised RL networks, which demonstrate superior efficiency, requiring less training data and fewer iterations for convergence. This research advocates for a unique hybrid approach to create socially cognizant robots for therapeutic applications.",
       footerLink: [
         {
           name: "REAL Lab Website",
@@ -488,10 +490,22 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: emoji(
-        "🏆 Selected Panelist at OU WGS Center for Social Justice's Teach OUt on Race Conference"
-      ),
-      subtitle: "March 2024",
+      title: emoji("🏆 Colorstack Family Fund Scholarship"),
+      subtitle:
+        "April 2024. Colorstack is a tech nonprofit designed to support and empower Black and Latinx Computer Science students nationwide.",
+      image: require("./assets/images/colorstack.jpg"),
+      imageAlt: "Colorstack Logo",
+      footerLink: [
+        {
+          name: "Colorstack",
+          url: "https://www.colorstack.org/"
+        }
+      ]
+    },
+    {
+      title: emoji("🏆 AI Ethics Panelist at OU Teach OUt on Race Conference"),
+      subtitle:
+        'March 2024. OU Center for Social Justice\'s Teach OUt on Race Conference, "Navigating the Intersection of AI, Technology, and Race: Addressing Bias and Promoting Equity."',
       image: require("./assets/images/csjLogo.jpg"),
       imageAlt: "SJC Logo",
       footerLink: [
@@ -503,9 +517,10 @@ const achievementSection = {
     },
     {
       title: emoji("🏆 Hacklahoma 2024 Winner for Best Theme"),
-      subtitle: "February 2024",
+      subtitle:
+        "February 2024. My team's project Yesteryak, a generative AI-powered social media simulator for time travelers, won for the best theme among 40+ original student projects.",
       image: require("./assets/images/hacklahoma24.png"),
-      imageAlt: "TIAA Logo",
+      imageAlt: "Hacklahoma Logo",
       footerLink: [
         {name: "Hacklahoma Website", url: "https://2024.hacklahoma.org/"},
         {
@@ -526,7 +541,7 @@ const achievementSection = {
       imageAlt: "AWS CCP Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "AWS CCP Certification",
           url: "https://www.credly.com/badges/eb416594-8ff0-4aa5-b0bd-d40f79a8ddcf/public_url"
         },
         {
@@ -539,9 +554,10 @@ const achievementSection = {
       title: emoji(
         "⚙️ Girls Who Code x Deloitte Technical Interview Prep Bootcamp"
       ),
-      subtitle: "November 2023",
-      image: require("./assets/images/gwcdeloitte.JPG"),
-      imageAlt: "TIAA Logo",
+      subtitle:
+        "November 2023. I simulated the role of a product manager for a mental health-focused startup, crafting a product roadmap and Gantt chart for the development and rollout of a mood logging mental wellness app.",
+      image: require("./assets/images/gwcdeloitte2.png"),
+      imageAlt: "GWC Deloitte Logo",
       footerLink: [
         {
           name: "TIP Bootcamp Program",
@@ -554,36 +570,43 @@ const achievementSection = {
       ]
     },
     {
-      title: emoji("✈️ WE23 Conference Attendee"),
-      subtitle: "October 2023, Los Angeles, CA",
-      image: require("./assets/images/we23.jpg"),
+      title: emoji("✈️ WE23 Conference Attendee (Los Angeles, CA)"),
+      subtitle:
+        "October 2023. I had to chance to attend the world's largest conference for women in engineering and technology, engaging in insightful workshops and networking with women in tech from all walks of life across the nation!",
+      image: require("./assets/images/we23pic.jpg"),
       imageAlt: "WE23 Logo",
       footerLink: [
         {
-          name: "WE23",
+          name: "WE23 Conference",
           url: "https://swe.org/calendar/we23-the-worlds-largest-conference-for-women-in-engineering-and-technology/"
-        }
-      ]
-    },
-    {
-      title: emoji("✈️ TIAA Early Immersion Program for Hispanic Students"),
-      subtitle:
-        "In September 2022, I was invited to represent OU at TIAA Bank's Early Immersion Program in Charlotte, NC. Our cohort heard from Hispanic/Latino industry leaders at TIAA on how to thrive in the financial industry and embrace our Latino roots in our professional development.",
-      image: require("./assets/images/tiaa.png"),
-      imageAlt: "TIAA Logo",
-      footerLink: [
+        },
         {
-          name: "Credential",
-          url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"
+          name: "My WE23 LinkedIn Blog Post",
+          url: "https://www.linkedin.com/posts/natalia-mora-ou_steminist-we23-swe-activity-7126318577678200832-ef3n"
         }
       ]
     },
     {
       title: emoji(
-        "✈️ Dow Diamond Symposium Attendee, Information Systems Cohort"
+        "✈️ TIAA Early Immersion Program for Hispanic and Latino Students (Charlotte, NC)"
       ),
       subtitle:
-        "In August 2022, I was invited to represent OU at the Dow Diamond Symposium in Midland, MI in the Information Systems cohort. Here, I learned about Dow's core company values as a manufacturing company and how exciting AI/ML innovations influence and power its supply chain operations.",
+        "September 2022. Our cohort of early career Hispanic/Latino students heard from Hispanic/Latino industry leaders at TIAA on how to thrive in the financial industry and embrace our Latino roots in our professional development.",
+      image: require("./assets/images/tiaa.png"),
+      imageAlt: "TIAA Logo",
+      footerLink: [
+        {
+          name: "Acceptance Letter (Email)",
+          url: "https://drive.google.com/file/d/1pvEAjlbIL8_6hH4f6Q1nJbkkzlhCuh4t/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: emoji(
+        "✈️ Dow Diamond Symposium Attendee, Information Systems Cohort (Midland, MI)"
+      ),
+      subtitle:
+        "August 2022. I learned about Dow's core company values as a manufacturing company and how exciting AI/ML innovations influence and power its supply chain operations.",
       image: require("./assets/images/dowDiamondSymposium2022.jpg"),
       imageAlt: "2022 Dow Diamond Symposium Logo",
       footerLink: [
@@ -592,8 +615,8 @@ const achievementSection = {
           url: "https://corporate.dow.com/en-us/careers/work-at-dow/diamond-symposium.html"
         },
         {
-          name: "Dow Diversity Initiatives",
-          url: "https://corporate.dow.com/en-us/about/inclusion-and-diversity/encouraging-advocacy-community-and-talent.html"
+          name: "My Dow LinkedIn Blog Post",
+          url: "https://www.linkedin.com/posts/natalia-mora-ou_diamondsymposium2022-dow-datascience-activity-6966591785326305281-um-P"
         }
       ]
     },
@@ -605,32 +628,41 @@ const achievementSection = {
       imageAlt: "HSF Logo",
       footerLink: [
         {
+          name: "Acceptance Letter (Email)",
+          url: "https://drive.google.com/file/d/1Vz8aomGfdc8qarBKG0KGDAQ109aHpEEP/view?usp=sharing"
+        },
+        {
           name: "HSF Scholar Program",
           url: "https://www.hsf.net/scholarship"
         }
       ]
     },
     {
-      title: emoji("✈️ Salesforce B.A.S.E. Camp Fellow"),
+      title: emoji("✈️ Salesforce B.A.S.E. Camp Fellow (Scotts Valley, CA)"),
       subtitle:
-        "In March 2022, I was selected to participate in a multi-day, immersive learning experience hosted at Salesforce's Trailblazer Ranch in Scotts Valley, CA. I had the opportunity to connect with other BIPOC computer science students across the country and engage in skill-building workshops, impactful volunteering activities, and early career explorations with Salesforce.",
+        "March 2022. At Salesforce's Trailblazer Ranch, I had the opportunity to connect with other BIPOC computer science students across the country and engage in skill-building workshops, impactful volunteering activities, and early career explorations with Salesforce.",
       image: require("./assets/images/basecamp.png"),
       imageAlt: "Salesforce BASE Camp Logo",
       footerLink: [
         {
-          name: "Credential",
-          url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"
+          name: "Acceptance Letter",
+          url: "https://drive.google.com/file/d/16i3As5I6ITCVnWPgdEK5RHOc2cQQqW6Q/view?usp=sharing"
+        },
+        {
+          name: "My B.A.S.E. Camp LinkedIn Blog Post",
+          url: "https://www.linkedin.com/posts/natalia-mora-ou_salesforce-futureforce-thankyou-activity-6908052079357652992-0rR8"
         }
       ]
     },
     {
       title: emoji("⚙️ AT&T Summer Learning Academy Extern"),
-      subtitle: "August 2021",
+      subtitle:
+        "August 2021. Through this AT&T externship, I gained a comprehensive understanding of Personal Development, Business, Technology, and insights into life at AT&T from leadership and industry experts.",
       image: require("./assets/images/attExtern.png"),
       imageAlt: "AT&T Logo",
       footerLink: [
         {
-          name: "Credential",
+          name: "Credly AT&T Credential",
           url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"
         }
       ]
@@ -649,34 +681,34 @@ const achievementSection = {
     {
       title: emoji("🏆 OU Scholarships"),
       subtitle:
-        "I have been a recipient of the OU Resident Freshman Award of Excellence Scholarship, OU GCoE Distinguished Freshman Scholarship, OU GCoE Tomorrow's Engineer Scholarship, and OU GCoE Diversity & Inclusion Resident Tuition Waiver.",
-      image: require("./assets/images/gcoeFlag.jpg"),
+        "Throughout my college career, I have been awarded Dean's Honor Roll, the OU Resident Freshman Award of Excellence Scholarship, OU GCoE Distinguished Freshman Scholarship, OU GCoE Tomorrow's Engineer Scholarship, and OU GCoE Diversity & Inclusion Resident Tuition Waiver.",
+      image: require("./assets/images/ougcoe.jpg"),
       imageAlt: "GCoE Flag Logo",
-      footerLink: [
-        {
-          name: "Diploma",
-          url: "https://drive.google.com/file/d/17KaBHEdDhKY2FTS27dwvCq-ybJpv9ocr/view?usp=sharing"
-        }
-      ]
+      footerLink: []
     },
     {
       title: emoji("🏆 AP Capstone Diploma"),
       subtitle:
-        'Awarded the AP Capstone Diploma in July 2019 for the outstanding achievements showcased in my independent preprint publication, "The Mind Behind the Robot," now accessible to the public on ResearchGate.',
+        'July 2019. Awarded the AP Capstone Diploma for the outstanding achievements showcased in my independent preprint publication, "The Mind Behind the Robot," now accessible to the public on ResearchGate.',
       image: require("./assets/images/apCapstoneLogo.webp"),
       imageAlt: "AP Capstone Logo",
       footerLink: [
         {
-          name: "Diploma",
+          name: "AP Capstone Diploma",
           url: "https://drive.google.com/file/d/17KaBHEdDhKY2FTS27dwvCq-ybJpv9ocr/view?usp=sharing"
+        },
+        {
+          name: '"The Mind Behind the Robot" paper',
+          url: "https://www.researchgate.net/publication/345392698_The_Mind_Behind_the_Robot_Viewing_Prospective_Artificial_Moral_Agent_Frameworks_through_Phenomena_of_Human-Robot_Interaction_Attribution_of_Mental_State"
         }
       ]
     },
     {
       title: emoji(
-        "✈️ Washington Journalism and Media Conference Attendee National Youth Correspondent"
+        "✈️ Washington Journalism and Media Conference Attendee National Youth Correspondent (Fairfax, VA)"
       ),
-      subtitle: "July 2019, Fairfax, VA",
+      subtitle:
+        "July 2019. At WJMC, I gained hands-on knowledge in journalism from industry leaders, award-winning journalists, international media outlets, and Washington insiders.",
       image: require("./assets/images/wjmcLogo.jpg"),
       imageAlt: "WJMC Logo",
       footerLink: [
@@ -749,8 +781,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Juntos somos más fuertes!",
   number: "405-906-6964",
   email_address: "nxm23763@gmail.com"
 };

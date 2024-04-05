@@ -15,22 +15,6 @@ export default function GithubProfileCard({prof}) {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
         <h1 className="prof-title">Let's Start a Conversation!</h1>
-        <div
-          className="badge-base LI-profile-badge"
-          data-locale="en_US"
-          data-size="large"
-          data-theme="dark"
-          data-type="HORIZONTAL"
-          data-vanity="natalia-mora-ou"
-          data-version="v1"
-        >
-          <a
-            class="badge-base__link LI-simple-link"
-            href="https://www.linkedin.com/in/natalia-mora-ou?trk=profile-badge"
-          >
-            Natalia Mora
-          </a>
-        </div>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
