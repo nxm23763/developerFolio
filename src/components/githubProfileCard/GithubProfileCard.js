@@ -50,8 +50,8 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img
-              src={prof.avatarUrl}
-              alt={prof.name}
+              src={require("../../assets/images/headshotPic.JPG")}
+              alt="Natalia profile pic"
               className="profile-image"
             />
           </div>
