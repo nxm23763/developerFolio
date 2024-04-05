@@ -28,7 +28,12 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name" style={{ color: isDark ? "#ffffff" : "#223030" }}>{greeting.username}</span>
+          <span
+            className="logo-name"
+            style={{color: isDark ? "#ffffff" : "#223030"}}
+          >
+            {greeting.username}
+          </span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -75,7 +80,7 @@ function Header() {
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a style={{display: 'flex', gap: '20px' }}>
+            <a style={{display: "flex", gap: "20px"}}>
               <ToggleSwitch />
               {/* <ToggleLanguage /> */}
             </a>

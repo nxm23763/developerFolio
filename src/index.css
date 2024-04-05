@@ -3,7 +3,8 @@
   font-style: normal;
   font-weight: normal;
   src: local("Aesthetic Regular"),
-    url("./assets/fonts/Aesthetic-Font/misc/Aesthetic-Regular-ed9f.woff") format("woff");
+    url("./assets/fonts/Aesthetic-Font/misc/Aesthetic-Regular-ed9f.woff")
+      format("woff");
   font-display: swap;
 }
 @font-face {

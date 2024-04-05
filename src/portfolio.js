@@ -50,12 +50,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I explore various tech stacks for AI/ML research and software engineering, tapping into their overlaps to unearth key insights.",
+  subTitle:
+    "I explore various tech stacks for AI/ML research and software engineering, tapping into their overlaps to unearth key insights.",
   skills: [
     emoji(
       "⚡  Implement cutting-edge machine learning algorithms to analyze complex datasets and derive actionable insights"
     ),
-    emoji("⚡ Architect scalable cloud infrastructure solutions using AWS services to optimize performance and reliability"),
+    emoji(
+      "⚡ Architect scalable cloud infrastructure solutions using AWS services to optimize performance and reliability"
+    ),
     emoji(
       "⚡ Develop data pipelines and automation workflows using Python and SQL to streamline data processing and analysis tasks"
     )
@@ -157,19 +160,37 @@ const educationInfo = {
       duration: "August 2020 - May 2024",
       desc: "As a passionate computer science student, AI/ML researcher, and student leader, I've made it my lifelong mission to democratize AI education for all. My journey at the University of Oklahoma Gallogly College of Engineering has laid the groundwork for this mission.",
       descBullets: [
-        emoji("🧠 Co-Founder, Former President, and Current VPX of OU AI/ML Club, est. Dec 2020."),
-        emoji("👩🏻‍💻 Co-Founder and Co-President of OU Girls Who Code College Loop, est. Aug 2023."),
+        emoji(
+          "🧠 Co-Founder, Former President, and Current VPX of OU AI/ML Club, est. Dec 2020."
+        ),
+        emoji(
+          "👩🏻‍💻 Co-Founder and Co-President of OU Girls Who Code College Loop, est. Aug 2023."
+        ),
         emoji("🍀 Loyal Knights of Old Trusty, LKOT 798/."),
-        emoji("📔 Published author of independent preprint paper \"The Mind Behind The Robot\", exploring how anthropomorphism, user perceptions, and social robot design enhance joint-task interactions."),
-        emoji("🤖 4x ML Researcher, specializing in deep reinforcement learning, artificial neural networks, and large language models (LLMs)."),
-        emoji("🌐 Co-Creator of award-winning annual OU AI/ML Symposium, showcasing original AI/ML research projects by OU students. Supported by industry leaders like IBM, Walmart Global Tech, Morgan Stanley, Boeing, and ConocoPhillips. 2x Recipient of the Donna Shirley Engineering Award."),
-        emoji("🗣️ Public speaker on AI/ML ethics, with a proven track record of delivering engaging presentations at seminars and conferences. Dedicated to fostering dialogue, raising awareness of societal concerns, and guiding audiences through the ethical implications shaping the future of AI/ML."),
-        emoji("🔬 Alum of OU First-Year Research Experience (FYRE) and Honors Engineering Research Experience (HERE). Affiliate member of Data Institute for Societal Challenges (DISC) and Robotics, Evolution, Adaptation and Learning Laboratory (REAL Lab)."),
-        emoji("🎯 Member of Society of Hispanic Professional Engineers (SHPE), Society of Women Engineers (SWE), Data Science and Analytics (DSA) Club, Hacklahoma, SACM, UI/UX Club, Engineers' Club, and Computer Science Student Board."),
+        emoji(
+          '📔 Published author of independent preprint paper "The Mind Behind The Robot", exploring how anthropomorphism, user perceptions, and social robot design enhance joint-task interactions.'
+        ),
+        emoji(
+          "🤖 4x ML Researcher, specializing in deep reinforcement learning, artificial neural networks, and large language models (LLMs)."
+        ),
+        emoji(
+          "🌐 Co-Creator of award-winning annual OU AI/ML Symposium, showcasing original AI/ML research projects by OU students. Supported by industry leaders like IBM, Walmart Global Tech, Morgan Stanley, Boeing, and ConocoPhillips. 2x Recipient of the Donna Shirley Engineering Award."
+        ),
+        emoji(
+          "🗣️ Public speaker on AI/ML ethics, with a proven track record of delivering engaging presentations at seminars and conferences. Dedicated to fostering dialogue, raising awareness of societal concerns, and guiding audiences through the ethical implications shaping the future of AI/ML."
+        ),
+        emoji(
+          "🔬 Alum of OU First-Year Research Experience (FYRE) and Honors Engineering Research Experience (HERE). Affiliate member of Data Institute for Societal Challenges (DISC) and Robotics, Evolution, Adaptation and Learning Laboratory (REAL Lab)."
+        ),
+        emoji(
+          "🎯 Member of Society of Hispanic Professional Engineers (SHPE), Society of Women Engineers (SWE), Data Science and Analytics (DSA) Club, Hacklahoma, SACM, UI/UX Club, Engineers' Club, and Computer Science Student Board."
+        ),
         //emoji("🙌🏻 Involved in on-campus professional societies, the Society of Hispanic Professional Engineers (SHPE) and the Society of Women Engineers (SWE)"),
         //emoji("🌱 Volunteer at The Big Event, OU Engineering Open House, Tomás Rivera Educational Empowerment (TREE) Conference, and OU Girls Learning and Applying Math and Science (GLAMS)"),
         //emoji("✈️ Full-Ride Scholarships to WE23 Conference (Los Angeles, CA), 2022 Salesforce B.A.S.E. Camp (Scotts Valley, CA), 2022 Dow Diamond Symposium (Midland, MI) and the 2022 TIAA Bank Early Immersion Program for Hispanics and Latinos (Charlotte, NC)"),
-        emoji("🎓 Relevant Coursework: Artificial Neural Networks & Evolution, Computational Methods of Discrete Optimization, Intro to Intelligent Robotics, Parallel, Distributed, and Network Programming, Software Engineering, Database Management Systems, Capstone Design Project, Intro to Operating Systems, Computer Security, Theory of Computation, Principles of Programming Languages, Data Structures, Discrete Structures, Linear Algebra, Differential Equations, Calculus I-III.")
+        emoji(
+          "🎓 Relevant Coursework: Artificial Neural Networks & Evolution, Computational Methods of Discrete Optimization, Intro to Intelligent Robotics, Parallel, Distributed, and Network Programming, Software Engineering, Database Management Systems, Capstone Design Project, Intro to Operating Systems, Computer Security, Theory of Computation, Principles of Programming Languages, Data Structures, Discrete Structures, Linear Algebra, Differential Equations, Calculus I-III."
+        )
       ]
     }
   ]
@@ -289,7 +310,7 @@ const workExperiences = {
       desc: "As a SWE fellow in the inaugural class of the Advancing Hispanics & Latinos (AHL) Fellowship Program, I made an impact by implementing ML on a credit risk assessment model, and developed my front-end skills to create a financial literacy game, aligning with AHL's diversity and economic equity goals.",
       descBullets: [
         "Implemented artificial neural network (ANN)-powered risk assessment model for partner bank Southern Bancorp, leveraging consumer behavior data to support low-income clients in accessing credit-building programs",
-        "Engineered \"Finalfa\", an online financial literacy game designed for first-gen immigrants to achieve economic equity in the US, as a front-end developer using the HTML/CSS/JS framework, React, Figma, and Node.js",
+        'Engineered "Finalfa", an online financial literacy game designed for first-gen immigrants to achieve economic equity in the US, as a front-end developer using the HTML/CSS/JS framework, React, Figma, and Node.js',
         "Contributed to innovative business solutions and swift product development within a multidisciplinary cohort"
       ]
     }
@@ -308,7 +329,9 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: emoji("My role: 🔧 = Back-End | 🎨 = Front-End | 🧠 = AI/ML & Data Engineering"),
+  subtitle: emoji(
+    "My role: 🔧 = Back-End | 🎨 = Front-End | 🧠 = AI/ML & Data Engineering"
+  ),
   projects: [
     {
       image: require("./assets/images/GCPpic.png"),
@@ -324,7 +347,8 @@ const bigProjects = {
     {
       image: require("./assets/images/AgriAIpicture.jpg"),
       projectName: emoji("🧠 DISC Agri:AI Coding Challenge"),
-      projectDesc: "Mar-Apr 2024. AI Institute Planning: A Gap-Based Approach to Frame and Develop Robust AI for Sustainable Agriculture. Currently building a predictive regression model for charting CO2 fluxes and evapotranspiration in grain-only and graze-out wheat using weather and satellite remote sensing data.",
+      projectDesc:
+        "Mar-Apr 2024. AI Institute Planning: A Gap-Based Approach to Frame and Develop Robust AI for Sustainable Agriculture. Currently building a predictive regression model for charting CO2 fluxes and evapotranspiration in grain-only and graze-out wheat using weather and satellite remote sensing data.",
       footerLink: [
         {
           name: "DISC Agri: AI Website",
@@ -335,7 +359,8 @@ const bigProjects = {
     {
       image: require("./assets/images/yesteryak.png"),
       projectName: emoji("🎨 YesterYak"),
-      projectDesc: "Feb 2024. Hacklahoma 2024 Best Theme Winner! Imagine stepping into a digital time machine, not to change history, but to listen in on the whispers and roars of the past. Welcome to YesterYak, a social media from the past, now!",
+      projectDesc:
+        "Feb 2024. Hacklahoma 2024 Best Theme Winner! Imagine stepping into a digital time machine, not to change history, but to listen in on the whispers and roars of the past. Welcome to YesterYak, a social media from the past, now!",
       footerLink: [
         {
           name: "Devpost",
@@ -346,7 +371,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logicPuzzlePic.jpg"),
       projectName: emoji("🧠 RL Matrix Logic Puzzle Solver"),
-      projectDesc: "Dec 2023-Present. Personal passion project, exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open-source Github repo to be published soon.",
+      projectDesc:
+        "Dec 2023-Present. Personal passion project, exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open-source Github repo to be published soon.",
       footerLink: [
         {
           name: "Puzzle Baron Logic Puzzles",
@@ -357,7 +383,8 @@ const bigProjects = {
     {
       image: require("./assets/images/classesPage.png"),
       projectName: emoji("🔧 BrewMaster's Cauldron"),
-      projectDesc: "Aug-Dec 2023. Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN (MongoDB, Express, React, Node.js) web app, tailored for adventurers by adventurers. Live demo to be published soon.",
+      projectDesc:
+        "Aug-Dec 2023. Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN (MongoDB, Express, React, Node.js) web app, tailored for adventurers by adventurers. Live demo to be published soon.",
       footerLink: [
         {
           name: "GitHub Repo",
@@ -368,7 +395,8 @@ const bigProjects = {
     {
       image: require("./assets/images/kobukiTurtlebot.JPG"),
       projectName: emoji("🔧 Oliver: A Speech-Oriented Tour Guide Robot"),
-      projectDesc: "Aug-Dec 2023. Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
+      projectDesc:
+        "Aug-Dec 2023. Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
       footerLink: [
         {
           name: "GitHub Repo",
@@ -382,7 +410,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/tictactoe.png"),
-      projectName: emoji("🧠 Tic Tac Alone: A RL-based Proof of Concept for Gamifying Compiler and Code Generator Transformations"),
+      projectName: emoji(
+        "🧠 Tic Tac Alone: A RL-based Proof of Concept for Gamifying Compiler and Code Generator Transformations"
+      ),
       projectDesc: "Jan-May 2023.",
       footerLink: [
         {
@@ -394,7 +424,8 @@ const bigProjects = {
     {
       image: require("./assets/images/finalfaHome.png"),
       projectName: emoji("🎨 JPMC AHL Fellowship: Finalfa"),
-      projectDesc: "Jul 2022. Finalfa helps Hispanic and Latino immigrants bolster their financial literacy and secure their futures! This jeopardy-style game provides a fun, easy, and accessible curriculum for all!",
+      projectDesc:
+        "Jul 2022. Finalfa helps Hispanic and Latino immigrants bolster their financial literacy and secure their futures! This jeopardy-style game provides a fun, easy, and accessible curriculum for all!",
       footerLink: [
         {
           name: "Glitch Code",
@@ -408,8 +439,11 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/realLabLogo.png"),
-      projectName: emoji("🧠 Modeling Socio-Cognitive Decision Making: An Evolutionary Approach to the Deep RL Agent-Based Neural Network"),
-      projectDesc: "Jan-May 2021. Robotics, Evolution, Adaptation and Learning (REAL) Lab Research. Proposal to optimize deep RL in socio-cognitive sensorimotor responses with partially supervised RL networks, which demonstrate superior efficiency, requiring less training data and fewer iterations for convergence. This research advocates for a unique hybrid approach to create socially cognizant robots for therapeutic applications.",
+      projectName: emoji(
+        "🧠 Modeling Socio-Cognitive Decision Making: An Evolutionary Approach to the Deep RL Agent-Based Neural Network"
+      ),
+      projectDesc:
+        "Jan-May 2021. Robotics, Evolution, Adaptation and Learning (REAL) Lab Research. Proposal to optimize deep RL in socio-cognitive sensorimotor responses with partially supervised RL networks, which demonstrate superior efficiency, requiring less training data and fewer iterations for convergence. This research advocates for a unique hybrid approach to create socially cognizant robots for therapeutic applications.",
       footerLink: [
         {
           name: "REAL Lab Website",
@@ -425,7 +459,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
     /*
     {
       image: require("./assets/images/ouLogo.png"),
@@ -448,17 +482,23 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    emoji("Emoji key: 🏆 = Award | ⚙️ = Certification/Technical Training | ✈️ = Full-Ride Conference Travel Scholarship"),
+  subtitle: emoji(
+    "Emoji key: 🏆 = Award | ⚙️ = Certification/Technical Training | ✈️ = Full-Ride Conference Travel Scholarship"
+  ),
 
   achievementsCards: [
     {
-      title: emoji("🏆 Selected Panelist at OU WGS Center for Social Justice's Teach OUt on Race Conference"),
+      title: emoji(
+        "🏆 Selected Panelist at OU WGS Center for Social Justice's Teach OUt on Race Conference"
+      ),
       subtitle: "March 2024",
       image: require("./assets/images/csjLogo.jpg"),
       imageAlt: "SJC Logo",
       footerLink: [
-        {name: "Teach OUt on Race", url: "https://www.ou.edu/cas/csj/programs/teachout"}
+        {
+          name: "Teach OUt on Race",
+          url: "https://www.ou.edu/cas/csj/programs/teachout"
+        }
       ]
     },
     {
@@ -468,8 +508,14 @@ const achievementSection = {
       imageAlt: "TIAA Logo",
       footerLink: [
         {name: "Hacklahoma Website", url: "https://2024.hacklahoma.org/"},
-        {name: "Project Gallery", url: "https://hacklahoma-2024.devpost.com/project-gallery"},
-        {name: "Yesteryak Devpost", url: "https://devpost.com/software/yesteryak"}
+        {
+          name: "Project Gallery",
+          url: "https://hacklahoma-2024.devpost.com/project-gallery"
+        },
+        {
+          name: "Yesteryak Devpost",
+          url: "https://devpost.com/software/yesteryak"
+        }
       ]
     },
     {
@@ -490,14 +536,21 @@ const achievementSection = {
       ]
     },
     {
-      title: emoji("⚙️ Girls Who Code x Deloitte Technical Interview Prep Bootcamp"),
+      title: emoji(
+        "⚙️ Girls Who Code x Deloitte Technical Interview Prep Bootcamp"
+      ),
       subtitle: "November 2023",
       image: require("./assets/images/gwcdeloitte.JPG"),
       imageAlt: "TIAA Logo",
       footerLink: [
-        {name: "TIP Bootcamp Program", url: "https://girlswhocode.zendesk.com/hc/en-us/articles/8463807424667-What-is-the-Girls-Who-Code-Technical-Interview-Prep-program"},
-        {name: "Deliverable: Daily Mood Logging Roadmap", url: "https://trello.com/b/v91lN99j/%F0%9F%98%84%F0%9F%98%8A%F0%9F%98%90%F0%9F%98%94%F0%9F%98%96-daily-mood-logging-roadmap"}
-
+        {
+          name: "TIP Bootcamp Program",
+          url: "https://girlswhocode.zendesk.com/hc/en-us/articles/8463807424667-What-is-the-Girls-Who-Code-Technical-Interview-Prep-program"
+        },
+        {
+          name: "Deliverable: Daily Mood Logging Roadmap",
+          url: "https://trello.com/b/v91lN99j/%F0%9F%98%84%F0%9F%98%8A%F0%9F%98%90%F0%9F%98%94%F0%9F%98%96-daily-mood-logging-roadmap"
+        }
       ]
     },
     {
@@ -506,46 +559,68 @@ const achievementSection = {
       image: require("./assets/images/we23.jpg"),
       imageAlt: "WE23 Logo",
       footerLink: [
-        {name: "WE23", url: "https://swe.org/calendar/we23-the-worlds-largest-conference-for-women-in-engineering-and-technology/"}
+        {
+          name: "WE23",
+          url: "https://swe.org/calendar/we23-the-worlds-largest-conference-for-women-in-engineering-and-technology/"
+        }
       ]
     },
     {
       title: emoji("✈️ TIAA Early Immersion Program for Hispanic Students"),
-      subtitle: "In September 2022, I was invited to represent OU at TIAA Bank's Early Immersion Program in Charlotte, NC. Our cohort heard from Hispanic/Latino industry leaders at TIAA on how to thrive in the financial industry and embrace our Latino roots in our professional development.",
+      subtitle:
+        "In September 2022, I was invited to represent OU at TIAA Bank's Early Immersion Program in Charlotte, NC. Our cohort heard from Hispanic/Latino industry leaders at TIAA on how to thrive in the financial industry and embrace our Latino roots in our professional development.",
       image: require("./assets/images/tiaa.png"),
       imageAlt: "TIAA Logo",
       footerLink: [
-        {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
+        {
+          name: "Credential",
+          url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"
+        }
       ]
     },
     {
-      title: emoji("✈️ Dow Diamond Symposium Attendee, Information Systems Cohort"),
-      subtitle: "In August 2022, I was invited to represent OU at the Dow Diamond Symposium in Midland, MI in the Information Systems cohort. Here, I learned about Dow's core company values as a manufacturing company and how exciting AI/ML innovations influence and power its supply chain operations.",
+      title: emoji(
+        "✈️ Dow Diamond Symposium Attendee, Information Systems Cohort"
+      ),
+      subtitle:
+        "In August 2022, I was invited to represent OU at the Dow Diamond Symposium in Midland, MI in the Information Systems cohort. Here, I learned about Dow's core company values as a manufacturing company and how exciting AI/ML innovations influence and power its supply chain operations.",
       image: require("./assets/images/dowDiamondSymposium2022.jpg"),
       imageAlt: "2022 Dow Diamond Symposium Logo",
       footerLink: [
-        {name: "Dow Diamond Symposium", url: "https://corporate.dow.com/en-us/careers/work-at-dow/diamond-symposium.html"},
-        {name: "Dow Diversity Initiatives", url: "https://corporate.dow.com/en-us/about/inclusion-and-diversity/encouraging-advocacy-community-and-talent.html"}
+        {
+          name: "Dow Diamond Symposium",
+          url: "https://corporate.dow.com/en-us/careers/work-at-dow/diamond-symposium.html"
+        },
+        {
+          name: "Dow Diversity Initiatives",
+          url: "https://corporate.dow.com/en-us/about/inclusion-and-diversity/encouraging-advocacy-community-and-talent.html"
+        }
       ]
     },
     {
       title: emoji("🏆 Hispanic Scholarship Fund Scholar"),
-      subtitle: "Recognized as a 2022 Hispanic Scholarship Fund (HSF) scholar, commended for exceptional achievements, academic excellence, and commitment to fostering diversity and inclusivity within the Hispanic and Latino community.",
+      subtitle:
+        "Recognized as a 2022 Hispanic Scholarship Fund (HSF) scholar, commended for exceptional achievements, academic excellence, and commitment to fostering diversity and inclusivity within the Hispanic and Latino community.",
       image: require("./assets/images/hsfLogo.png"),
       imageAlt: "HSF Logo",
       footerLink: [
         {
-          name: "HSF Scholar Program", url: "https://www.hsf.net/scholarship"
+          name: "HSF Scholar Program",
+          url: "https://www.hsf.net/scholarship"
         }
       ]
     },
     {
       title: emoji("✈️ Salesforce B.A.S.E. Camp Fellow"),
-      subtitle: "In March 2022, I was selected to participate in a multi-day, immersive learning experience hosted at Salesforce's Trailblazer Ranch in Scotts Valley, CA. I had the opportunity to connect with other BIPOC computer science students across the country and engage in skill-building workshops, impactful volunteering activities, and early career explorations with Salesforce.",
+      subtitle:
+        "In March 2022, I was selected to participate in a multi-day, immersive learning experience hosted at Salesforce's Trailblazer Ranch in Scotts Valley, CA. I had the opportunity to connect with other BIPOC computer science students across the country and engage in skill-building workshops, impactful volunteering activities, and early career explorations with Salesforce.",
       image: require("./assets/images/basecamp.png"),
       imageAlt: "Salesforce BASE Camp Logo",
       footerLink: [
-        {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
+        {
+          name: "Credential",
+          url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"
+        }
       ]
     },
     {
@@ -554,7 +629,10 @@ const achievementSection = {
       image: require("./assets/images/attExtern.png"),
       imageAlt: "AT&T Logo",
       footerLink: [
-        {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
+        {
+          name: "Credential",
+          url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"
+        }
       ]
     },
     /*
@@ -584,7 +662,7 @@ const achievementSection = {
     {
       title: emoji("🏆 AP Capstone Diploma"),
       subtitle:
-        "Awarded the AP Capstone Diploma in July 2019 for the outstanding achievements showcased in my independent preprint publication, \"The Mind Behind the Robot,\" now accessible to the public on ResearchGate.",
+        'Awarded the AP Capstone Diploma in July 2019 for the outstanding achievements showcased in my independent preprint publication, "The Mind Behind the Robot," now accessible to the public on ResearchGate.',
       image: require("./assets/images/apCapstoneLogo.webp"),
       imageAlt: "AP Capstone Logo",
       footerLink: [
@@ -595,9 +673,10 @@ const achievementSection = {
       ]
     },
     {
-      title: emoji("✈️ Washington Journalism and Media Conference Attendee National Youth Correspondent"),
-      subtitle:
-        "July 2019, Fairfax, VA",
+      title: emoji(
+        "✈️ Washington Journalism and Media Conference Attendee National Youth Correspondent"
+      ),
+      subtitle: "July 2019, Fairfax, VA",
       image: require("./assets/images/wjmcLogo.jpg"),
       imageAlt: "WJMC Logo",
       footerLink: [
@@ -606,7 +685,7 @@ const achievementSection = {
           url: "https://wjmc.gmu.edu/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -615,8 +694,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Talks",
-  subtitle:
-    "This section will contain the tech talks I have given.",
+  subtitle: "This section will contain the tech talks I have given.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -645,8 +723,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Strengthening AI Literacy among policymakers, industry leaders, and the general public",
-      subtitle: "2024 WGS CSJ Teach OUt on Race Conference. Navigating the Intersection of AI, Technology, and Race: Addressing Bias and Promoting Equity",
+      title:
+        "Strengthening AI Literacy among policymakers, industry leaders, and the general public",
+      subtitle:
+        "2024 WGS CSJ Teach OUt on Race Conference. Navigating the Intersection of AI, Technology, and Race: Addressing Bias and Promoting Equity",
       slides_url: "",
       event_url: "https://www.ou.edu/cas/csj/programs/teachout"
     }
