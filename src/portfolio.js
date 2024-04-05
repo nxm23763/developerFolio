@@ -359,7 +359,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/logicPuzzlePic.jpg"),
+      image: require("./assets/images/logicpuzzle.jpg"),
       projectName: emoji("🧠🚧 RL Matrix Logic Puzzle Solver"),
       projectDesc:
         "Dec 2023-Present, personal passion project. Exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open source GitHub repo to be published soon!",
