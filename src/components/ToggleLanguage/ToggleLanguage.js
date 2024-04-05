@@ -13,7 +13,7 @@ const ToggleLanguage = () => {
   };
 
   return (
-    <label className="switch" onClick={handleToggleLanguage}>
+    <label className="switch" onClick={() => handleToggleLanguage()}>
       <input type="checkbox" checked={isChecked} readOnly />
       <span className="slider round">
         <span className="emoji">{isChecked ? emoji("🇺🇸") : emoji("🇲🇽")}</span>

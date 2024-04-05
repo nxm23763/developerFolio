@@ -292,7 +292,7 @@ const workExperiences = {
         "Engineered \"Finalfa\", an online financial literacy game designed for first-gen immigrants to achieve economic equity in the US, as a front-end developer using the HTML/CSS/JS framework, React, Figma, and Node.js",
         "Contributed to innovative business solutions and swift product development within a multidisciplinary cohort"
       ]
-    },
+    }
   ]
 };
 
