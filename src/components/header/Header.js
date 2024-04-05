@@ -77,7 +77,7 @@ function Header() {
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a style={{display: 'flex', gap: '20px' }}>
               <ToggleSwitch />
-              <ToggleLanguage />
+              {/* <ToggleLanguage /> */}
             </a>
           </li>
         </ul>

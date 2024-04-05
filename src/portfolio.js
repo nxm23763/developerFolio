@@ -307,13 +307,109 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Note to self, this section will contain research experiences! THIS IS ALL OUT OF ORDER",
+  title: "Projects",
+  subtitle: emoji("My role: 🔧 = Back-End | 🎨 = Front-End | 🧠 = AI/ML & Data Engineering"),
   projects: [
     {
+      image: require("./assets/images/GCPpic.png"),
+      projectName: emoji("🧠 RL Graph Coloring Problem Solver"),
+      projectDesc: "Jan-May 2024. Coming soon: ",
+      footerLink: [
+        {
+          name: "ANNE Course",
+          url: "https://www.cs.ou.edu/~hougen/classes/Spring-2024/ANNE/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/AgriAIpicture.jpg"),
+      projectName: emoji("🧠 DISC Agri:AI Coding Challenge"),
+      projectDesc: "Mar-Apr 2024. AI Institute Planning: A Gap-Based Approach to Frame and Develop Robust AI for Sustainable Agriculture. Currently building a predictive regression model for charting CO2 fluxes and evapotranspiration in grain-only and graze-out wheat using weather and satellite remote sensing data.",
+      footerLink: [
+        {
+          name: "DISC Agri: AI Website",
+          url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/yesteryak.png"),
+      projectName: emoji("🎨 YesterYak"),
+      projectDesc: "Feb 2024. Hacklahoma 2024 Best Theme Winner! Imagine stepping into a digital time machine, not to change history, but to listen in on the whispers and roars of the past. Welcome to YesterYak, a social media from the past, now!",
+      footerLink: [
+        {
+          name: "Devpost",
+          url: "https://devpost.com/software/yesteryak"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/logicPuzzlePic.jpg"),
+      projectName: emoji("🧠 RL Matrix Logic Puzzle Solver"),
+      projectDesc: "Dec 2023-Present. Personal passion project, exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open-source Github repo to be published soon.",
+      footerLink: [
+        {
+          name: "Puzzle Baron Logic Puzzles",
+          url: "https://logic.puzzlebaron.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/classesPage.png"),
+      projectName: emoji("🔧 BrewMaster's Cauldron"),
+      projectDesc: "Aug-Dec 2023. Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN (MongoDB, Express, React, Node.js) web app, tailored for adventurers by adventurers. Live demo to be published soon.",
+      footerLink: [
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/mariadoan247/brew-masters-cauldron"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/kobukiTurtlebot.JPG"),
+      projectName: emoji("🔧 Oliver: A Speech-Oriented Tour Guide Robot"),
+      projectDesc: "Aug-Dec 2023. Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
+      footerLink: [
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/nxm23763/cs4013_oliver"
+        },
+        {
+          name: "Final Poster",
+          url: "https://drive.google.com/file/d/1I2MCpXeLwd8m_yWqix61ePRluAU_5FKe/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tictactoe.png"),
+      projectName: emoji("🧠 Tic Tac Alone: A RL-based Proof of Concept for Gamifying Compiler and Code Generator Transformations"),
+      projectDesc: "Jan-May 2023.",
+      footerLink: [
+        {
+          name: "Photo credit",
+          url: "https://www.zabkat.com/blog/tic-tac-toe-learning.htm"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/finalfaHome.png"),
+      projectName: emoji("🎨 JPMC AHL Fellowship: Finalfa"),
+      projectDesc: "Jul 2022. Finalfa helps Hispanic and Latino immigrants bolster their financial literacy and secure their futures! This jeopardy-style game provides a fun, easy, and accessible curriculum for all!",
+      footerLink: [
+        {
+          name: "Glitch Code",
+          url: "https://glitch.com/edit/#!/finalfaprototypehackathon"
+        },
+        {
+          name: "Live Demo",
+          url: "https://finalfaprototypehackathon.glitch.me"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/realLabLogo.png"),
-      projectName: "Robotics, Evolution, Adaptation and Learning (REAL) Lab",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: emoji("🧠 Modeling Socio-Cognitive Decision Making: An Evolutionary Approach to the Deep RL Agent-Based Neural Network"),
+      projectDesc: "Jan-May 2021. Robotics, Evolution, Adaptation and Learning (REAL) Lab Research. Proposal to optimize deep RL in socio-cognitive sensorimotor responses with partially supervised RL networks, which demonstrate superior efficiency, requiring less training data and fewer iterations for convergence. This research advocates for a unique hybrid approach to create socially cognizant robots for therapeutic applications.",
       footerLink: [
         {
           name: "REAL Lab Website",
@@ -330,102 +426,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/AgriAIpicture.jpg"),
-      projectName: "DISC Agri: AI Coding Challenge",
-      projectDesc: "[COMING SOON]",
-      footerLink: [
-        {
-          name: "DISC Agri: AI Website",
-          url: "https://www.ou.edu/disc/active-projects/nsf-ai-ag"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/logicPuzzlePic.jpg"),
-      projectName: "RL Matrix Logic Puzzle Solver",
-      projectDesc: "[COMING SOON]",
-      footerLink: [
-        {
-          name: "Puzzle Baron Logic Puzzles",
-          url: "https://logic.puzzlebaron.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/GCPpic.png"),
-      projectName: "RL Graph Coloring Problem Solver",
-      projectDesc: "[COMING SOON]",
-      footerLink: [
-        {
-          name: "ANNE Course",
-          url: "https://www.cs.ou.edu/~hougen/classes/Spring-2024/ANNE/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/yesteryak.png"),
-      projectName: "YesterYak",
-      projectDesc: "Hacklahoma 2024 Best Theme Winner! Imagine stepping into a digital time machine, not to change history, but to listen in on the whispers and roars of the past. Welcome to YesterYak, a social media from the past, now!",
-      footerLink: [
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/yesteryak"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/classesPage.png"),
-      projectName: "BrewMaster's Cauldron",
-      projectDesc: "Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN web app, tailored for adventurers by adventurers.",
-      footerLink: [
-        {
-          name: "GitHub Repo",
-          url: "https://github.com/mariadoan247/brew-masters-cauldron"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/kobukiTurtlebot.JPG"),
-      projectName: "Oliver: A Speech-Oriented Tour Guide Robot",
-      projectDesc: "Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
-      footerLink: [
-        {
-          name: "GitHub Repo",
-          url: "https://github.com/nxm23763/cs4013_oliver"
-        },
-        {
-          name: "Final Poster",
-          url: "https://drive.google.com/file/d/1I2MCpXeLwd8m_yWqix61ePRluAU_5FKe/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/finalfaHome.png"),
-      projectName: "JPMC AHL Fellowship: Finalfa",
-      projectDesc: "Finalfa helps Hispanic and Latino immigrants bolster their financial literacy and secure their futures! This jeopardy-style game provides a fun, easy, and accessible curriculum for all!",
-      footerLink: [
-        {
-          name: "Glitch Code",
-          url: "https://glitch.com/edit/#!/finalfaprototypehackathon"
-        },
-        {
-          name: "Live Site",
-          url: "https://finalfaprototypehackathon.glitch.me"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/tictactoe.png"),
-      projectName: "Tic Tac Alone: A RL-based Proof of Concept for Gamifying Compiler and Code Generator Transformations",
-      projectDesc: "[COMING SOON] (OU LOGO IS PLACEHOLDER)",
-      footerLink: [
-        {
-          name: "Photo credit",
-          url: "https://www.zabkat.com/blog/tic-tac-toe-learning.htm"
-        }
-      ]
-    },
+    /*
     {
       image: require("./assets/images/ouLogo.png"),
       projectName: "HERE Research: Investigating Performance of Randomized Neural Networks in Various Applications",
@@ -437,6 +438,7 @@ const bigProjects = {
         }
       ]
     }
+    */
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -447,11 +449,11 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Chronological order",
+    emoji("Emoji key: 🏆 = Award | ⚙️ = Certification/Technical Training | ✈️ = Full-Ride Conference Travel Scholarship"),
 
   achievementsCards: [
     {
-      title: "🏆 Selected Panelist at OU WGS Center for Social Justice's Teach OUt on Race Conference",
+      title: emoji("🏆 Selected Panelist at OU WGS Center for Social Justice's Teach OUt on Race Conference"),
       subtitle: "March 2024",
       image: require("./assets/images/csjLogo.jpg"),
       imageAlt: "SJC Logo",
@@ -460,7 +462,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "🏆 Hacklahoma 2024 Winner for Best Theme",
+      title: emoji("🏆 Hacklahoma 2024 Winner for Best Theme"),
       subtitle: "February 2024",
       image: require("./assets/images/hacklahoma24.png"),
       imageAlt: "TIAA Logo",
@@ -509,7 +511,7 @@ const achievementSection = {
     },
     {
       title: emoji("✈️ TIAA Early Immersion Program for Hispanic Students"),
-      subtitle: "September 2022, Charlotte, NC",
+      subtitle: "In September 2022, I was invited to represent OU at TIAA Bank's Early Immersion Program in Charlotte, NC. Our cohort heard from Hispanic/Latino industry leaders at TIAA on how to thrive in the financial industry and embrace our Latino roots in our professional development.",
       image: require("./assets/images/tiaa.png"),
       imageAlt: "TIAA Logo",
       footerLink: [
@@ -518,7 +520,7 @@ const achievementSection = {
     },
     {
       title: emoji("✈️ Dow Diamond Symposium Attendee, Information Systems Cohort"),
-      subtitle: "August 2022, Midland, MI",
+      subtitle: "In August 2022, I was invited to represent OU at the Dow Diamond Symposium in Midland, MI in the Information Systems cohort. Here, I learned about Dow's core company values as a manufacturing company and how exciting AI/ML innovations influence and power its supply chain operations.",
       image: require("./assets/images/dowDiamondSymposium2022.jpg"),
       imageAlt: "2022 Dow Diamond Symposium Logo",
       footerLink: [
@@ -539,7 +541,7 @@ const achievementSection = {
     },
     {
       title: emoji("✈️ Salesforce B.A.S.E. Camp Fellow"),
-      subtitle: "March 2022, Scotts Valley, CA",
+      subtitle: "In March 2022, I was selected to participate in a multi-day, immersive learning experience hosted at Salesforce's Trailblazer Ranch in Scotts Valley, CA. I had the opportunity to connect with other BIPOC computer science students across the country and engage in skill-building workshops, impactful volunteering activities, and early career explorations with Salesforce.",
       image: require("./assets/images/basecamp.png"),
       imageAlt: "Salesforce BASE Camp Logo",
       footerLink: [
@@ -555,6 +557,7 @@ const achievementSection = {
         {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
       ]
     },
+    /*
     {
       title: "Volunteer Academic Writing Tutor",
       subtitle: "February 2021",
@@ -564,10 +567,11 @@ const achievementSection = {
         {name: "Credential", url: "https://www.credly.com/badges/6130f9b1-7945-44f9-a46c-87f4c2c9914e?source=linked_in_profile"}
       ]
     },
+    */
     {
       title: emoji("🏆 OU Scholarships"),
       subtitle:
-        "Various",
+        "I have been a recipient of the OU Resident Freshman Award of Excellence Scholarship, OU GCoE Distinguished Freshman Scholarship, OU GCoE Tomorrow's Engineer Scholarship, and OU GCoE Diversity & Inclusion Resident Tuition Waiver.",
       image: require("./assets/images/gcoeFlag.jpg"),
       imageAlt: "GCoE Flag Logo",
       footerLink: [
@@ -580,7 +584,7 @@ const achievementSection = {
     {
       title: emoji("🏆 AP Capstone Diploma"),
       subtitle:
-        "July 2019",
+        "Awarded the AP Capstone Diploma in July 2019 for the outstanding achievements showcased in my independent preprint publication, \"The Mind Behind the Robot,\" now accessible to the public on ResearchGate.",
       image: require("./assets/images/apCapstoneLogo.webp"),
       imageAlt: "AP Capstone Logo",
       footerLink: [
@@ -598,8 +602,8 @@ const achievementSection = {
       imageAlt: "WJMC Logo",
       footerLink: [
         {
-          name: "Diploma",
-          url: "https://drive.google.com/file/d/17KaBHEdDhKY2FTS27dwvCq-ybJpv9ocr/view?usp=sharing"
+          name: "WJMC Program",
+          url: "https://wjmc.gmu.edu/"
         }
       ]
     },
@@ -628,7 +632,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -643,11 +647,11 @@ const talkSection = {
     {
       title: "Strengthening AI Literacy among policymakers, industry leaders, and the general public",
       subtitle: "2024 WGS CSJ Teach OUt on Race Conference. Navigating the Intersection of AI, Technology, and Race: Addressing Bias and Promoting Equity",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "",
       event_url: "https://www.ou.edu/cas/csj/programs/teachout"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
