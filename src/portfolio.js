@@ -329,14 +329,16 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   subtitle: emoji(
-    "Emoji key: 🔧 = Back-End | 🎨 = Front-End | 🧠 = AI/ML & Data Engineering | 🚧 Currently in development"
+    "EMOJI KEY: 🔧 = BACK-END | 🎨 = FRONT-END | 🧠 = AI/ML & DATA ENGINEERING | 🚧 CURRENTLY IN DEVELOPMENT"
   ),
   projects: [
     {
       image: require("./assets/images/GCPpic.png"),
-      projectName: emoji("🧠🚧 RL Graph Coloring Problem Solver"),
+      projectName: emoji(
+        "🧠🚧 Deep RL Techniques in GNN Frameworks for the Graph Coloring Problem"
+      ),
       projectDesc:
-        "Jan-May 2024, Artificial Neural Networks & Evolution Course. ",
+        "Jan-May 2024, Artificial Neural Networks & Evolution Course. Currently exploring the integration of GNNs with RL algorithms for solving graph-related combinatorial optimization problems, focusing on implementing reward structures, training models, and comparing performance of existing methods like DQN and Advantage Actor-Critic.",
       footerLink: [
         {
           name: "ANNE Course",
@@ -348,7 +350,7 @@ const bigProjects = {
       image: require("./assets/images/AgriAIpicture.jpg"),
       projectName: emoji("🧠🚧 DISC Agri:AI Coding Challenge"),
       projectDesc:
-        "Mar-Apr 2024, DISC. Currently building a predictive regression model for charting CO2 fluxes and evapotranspiration in grain-only and graze-out wheat using weather and satellite remote sensing data.",
+        "Mar-Apr 2024, DISC. Currently building a predictive regression model for charting CO2 fluxes and evapotranspiration in grain-only and graze-out wheat using weather and satellite remote sensing data. This coding challenge was funded by NSF and the United States Department of Agriculture.",
       footerLink: [
         {
           name: "DISC Agri: AI Website",
@@ -360,13 +362,8 @@ const bigProjects = {
       image: require("./assets/images/logicPuzzlePic.jpg"),
       projectName: emoji("🧠🚧 RL Matrix Logic Puzzle Solver"),
       projectDesc:
-        "Dec 2023-Present, personal passion project. Exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open-source Github repo to be published soon.",
-      footerLink: [
-        {
-          name: "Puzzle Baron Logic Puzzles",
-          url: "https://logic.puzzlebaron.com/"
-        }
-      ]
+        "Dec 2023-Present, personal passion project. Exploring interpretable Deep-Q Network (DQN) RL models applied to constraint satisfaction problems (CSPs), specifically grid logic puzzles. Analyzing DQN RL efficacy through key metrics like learning rate, convergence behavior, and solution quality. Open source GitHub repo to be published soon!",
+      footerLink: []
     },
     {
       image: require("./assets/images/yesteryak.png"),
@@ -384,7 +381,7 @@ const bigProjects = {
       image: require("./assets/images/classesPage.png"),
       projectName: emoji("🔧 BrewMaster's Cauldron: D&D Character Forge"),
       projectDesc:
-        "Aug-Dec 2023, Capstone Design Course. Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN (MongoDB, Express, React, Node.js) web app, tailored for adventurers by adventurers. Live demo to be published soon.",
+        "Aug-Dec 2023, Capstone Design Course. Step into BrewMaster's Cauldron, where homebrew adventures come to life! Craft custom heroes, wield spells, and document quests with this React-based MERN (MongoDB, Express, React, Node.js) web app, tailored for adventurers by adventurers!",
       footerLink: [
         {
           name: "GitHub Repo",
@@ -393,7 +390,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/kobukiTurtlebot.JPG"),
+      image: require("./assets/images/turtlebot.jpg"),
       projectName: emoji("🔧 Oliver: A Speech-Oriented Tour Guide Robot"),
       projectDesc:
         "Aug-Dec 2023, Intro to Intelligent Robotics Course. Explore OU's engineering campus with Oliver, our Autonomous Turtlebot Tour Guide! Implemented on a Kobuki Turtlebot using Gazebo and ROS, Oliver employs NLP for real-time social interaction, offering precise navigation and intelligent insights.",
@@ -413,8 +410,13 @@ const bigProjects = {
       projectName: emoji(
         "🧠 Tic Tac Alone: A RL-based Proof of Concept for Gamifying Compiler and Code Generator Transformations"
       ),
-      projectDesc: "Jan-May 2023, HERE Program.",
+      projectDesc:
+        "Jan-May 2023, HERE Program. My paper explores the potential benefits of applying RL to compiler optimizations through a proof of concept based on the game Tic Tac Toe and its simpler variation Tic Tac Alone, demonstrating how RL can optimize decision-making processes in compiler optimizations (Tic Tac Toe Graphic is not mine).",
       footerLink: [
+        {
+          name: "Final Report",
+          url: "https://drive.google.com/file/d/1mVg8f2tOxQzvGmrQzcBeaZ_1azZAAlW_/view?usp=sharing"
+        },
         {
           name: "Photo credit",
           url: "https://www.zabkat.com/blog/tic-tac-toe-learning.htm"
@@ -445,7 +447,7 @@ const bigProjects = {
         "🧠 Modeling Socio-Cognitive Decision Making: An Evolutionary Approach to the Deep RL Agent-Based Neural Network"
       ),
       projectDesc:
-        "Jan-May 2021, REAL Lab & FYRE Program. Proposal to optimize deep RL in socio-cognitive sensorimotor responses with partially supervised RL networks, which demonstrate superior efficiency, requiring less training data and fewer iterations for convergence. This research advocates for a unique hybrid approach to create socially cognizant robots for therapeutic applications.",
+        "Jan-May 2021, REAL Lab & FYRE Program. Proposal to optimize deep RL in socio-cognitive sensorimotor responses with partially supervised RL networks, advocating for a unique hybrid approach to create socially cognizant robots for therapeutic applications.",
       footerLink: [
         {
           name: "REAL Lab Website",
@@ -458,6 +460,19 @@ const bigProjects = {
         {
           name: "Final Research Poster",
           url: "https://drive.google.com/file/d/1cJKMSpy0FeTNdBzcQqrFI5Kivee59fNn/view?usp=sharing"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/socialRobot.jpg"),
+      projectName: emoji("🧠 My Independent Paper: The Mind Behind the Robot"),
+      projectDesc:
+        "Aug 2018-Apr 2019, AP Capstone Program (High School), earned highest possible score of 5 and AP Capstone Diploma. Subtitle: Viewing Prospective Artificial Moral Agent Frameworks through Phenomena of Human-Robot Interaction Attribution of Mental State. Now available for free on ResearchGate. (Note, this adorable social robot graphic is not mine nor is it directly related to my paper!)",
+      footerLink: [
+        {
+          name: "Full paper on ResearchGate",
+          url: "Viewing Prospective Artificial Moral Agent Frameworks through Phenomena of Human-Robot Interaction Attribution of Mental State"
         }
         //  you can add extra buttons here.
       ]
@@ -492,7 +507,7 @@ const achievementSection = {
     {
       title: emoji("🏆 Colorstack Family Fund Scholarship"),
       subtitle:
-        "April 2024. Colorstack is a tech nonprofit designed to support and empower Black and Latinx Computer Science students nationwide.",
+        "April 2024. Colorstack is a tech nonprofit designed to support and empower Black and Latino Computer Science students nationwide.",
       image: require("./assets/images/colorstack.jpg"),
       imageAlt: "Colorstack Logo",
       footerLink: [
@@ -536,7 +551,7 @@ const achievementSection = {
     {
       title: emoji("⚙️ AWS Certified Cloud Practitioner"),
       subtitle:
-        "Certified August 16, 2023. Validation Number: VQLGN48K7EVQQESR",
+        "Certification date: Aug. 16, 2023. Expiration date: Aug. 16, 2026. Validation Number: VQLGN48K7EVQQESR",
       image: require("./assets/images/awsccpLogo.png"),
       imageAlt: "AWS CCP Logo",
       footerLink: [
@@ -545,7 +560,7 @@ const achievementSection = {
           url: "https://www.credly.com/badges/eb416594-8ff0-4aa5-b0bd-d40f79a8ddcf/public_url"
         },
         {
-          name: "Verify here",
+          name: "Verify Here!",
           url: "https://aws.amazon.com/verification"
         }
       ]
