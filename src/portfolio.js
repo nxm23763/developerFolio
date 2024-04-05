@@ -329,7 +329,7 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   subtitle: emoji(
-    "EMOJI KEY: 🔧 = BACK-END | 🎨 = FRONT-END | 🧠 = AI/ML & DATA ENGINEERING | 🚧 CURRENTLY IN DEVELOPMENT"
+    "EMOJI KEY: 🔧 = BACK-END | 🎨 = FRONT-END | 🧠 = AI/ML & DATA ENGINEERING | 🚧 = CURRENTLY IN DEVELOPMENT"
   ),
   projects: [
     {
