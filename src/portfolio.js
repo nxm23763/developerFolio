@@ -346,6 +346,7 @@ const bigProjects = {
         }
       ]
     },
+    /*
     {
       image: require("./assets/images/AgriAIpicture.jpg"),
       projectName: emoji("🧠🚧 DISC Agri:AI Coding Challenge"),
@@ -358,6 +359,7 @@ const bigProjects = {
         }
       ]
     },
+    */
     {
       image: require("./assets/images/logicpuzzle3.png"),
       projectName: emoji("🧠🚧 RL Matrix Logic Puzzle Solver"),
