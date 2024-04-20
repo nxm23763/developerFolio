@@ -26,7 +26,7 @@ const greeting = {
     "Dedicated AI/ML researcher, dynamic speaker, and proactive student leader passionate about democratizing AI/ML education for all. 🧠 Proficient in Python, AWS, and deep RL research, with a solid foundation in cloud infrastructure and back-end software engineering. ⚙️ 1st-gen Latina in tech committed to engineering elegant, innovative, and data-driven solutions that prioritize equity, global impact, and human-centered values. 🌍 Anticipating B.Sc in Computer Science in May 2024."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1qxbdN4tw1NU6fgA_lAOhedVNb5Cq_H2C/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1sBXPuiEzhHyQY8BcT-1Ynx7e-dL0hMPW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
